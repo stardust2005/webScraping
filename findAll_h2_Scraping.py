@@ -3,7 +3,7 @@ from urllib.error import HTTPError
 from urllib.error import URLError
 from bs4 import BeautifulSoup
 try:
-    html = urlopen("https://www.apkonline.net/?start=10")
+    html = urlopen("https://www.apkonline.net")
 except HTTPError as e:
     print(e)
 except URLError:
