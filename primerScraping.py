@@ -5,5 +5,5 @@ from urllib.request import urlopen
 import html5lib
 from bs4 import BeautifulSoup
 html = urlopen("http://www.python.org/")
-res = BeautifulSoup(html.read(),"html5lib");
+res = BeautifulSoup(html.read(),"html5lib")
 print(res.title)
